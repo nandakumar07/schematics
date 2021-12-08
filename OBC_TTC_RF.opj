@@ -84,48 +84,28 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 690"))
+        (Placement "44 2 3 -1 -1 -8 -31 0 250 0 690"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 52 1098 52 387")
-        (Scroll "-14 0")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path "C:\USERS\SURYA\DESKTOP\SCHEMATICS\OBC_TTC_RF.DSN")
-      (Schematic "Top_block")
-      (Page "Top_block"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 156 1202 156 491")
-        (Scroll "-14 0")
-        (Zoom "100")
-        (Occurrence "/Board/FPGA_block"))
-      (Path "C:\USERS\SURYA\DESKTOP\SCHEMATICS\OBC_TTC_RF.DSN")
-      (Schematic "XC7Z020")
-      (Page "CLG484E_F"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 156 1202 156 491")
-        (Scroll "-100 141")
+        (Placement "44 0 1 -1 -1 -8 -31 52 1208 52 313")
+        (Scroll "0 350")
         (Zoom "100")
         (Occurrence "/Board/FPGA_power_management"))
-      (Path "C:\USERS\SURYA\DESKTOP\SCHEMATICS\OBC_TTC_RF.DSN")
+      (Path "C:\USERS\USER\DESKTOP\SCHEMATICS\OBC_TTC_RF.DSN")
       (Schematic "Power_Management")
-      (Page "ADP5052ACPZ-R7"))
+      (Page "ADP5052"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 78 1124 78 413")
-        (Scroll "539 184")
+        (Placement "44 0 1 -1 -1 -8 -31 78 1234 78 339")
+        (Scroll "-69 0")
         (Zoom "100")
-        (Occurrence "/Board"))
-      (Path "C:\USERS\SURYA\DESKTOP\SCHEMATICS\OBC_TTC_RF.DSN")
-      (Schematic "Components")
-      (Page "Components_blocks"))) >>>>>>> powerpins
+        (Occurrence "/Board/FPGA_power_management"))
+      (Path "C:\USERS\USER\DESKTOP\SCHEMATICS\OBC_TTC_RF.DSN")
+      (Schematic "Power_Management")
+      (Page "ADP5052ACPZ-R7"))) >>>>>>> powerpins
   (HierarchyView)
   (Doc
     (Type "COrCapturePMDoc")
