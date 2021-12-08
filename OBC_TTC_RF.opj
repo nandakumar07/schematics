@@ -15,10 +15,17 @@
   (Folder "Outputs")
   (Folder "Referenced Projects")
   (PartMRUSelector
-    (PORTRIGHT-R
+    (PORTLEFT-R
       (LibraryName "C:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
-    (PORTLEFT-R
+    (GND
+      (LibraryName "C:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (CAPACITOR
+      (FullPartName "CAPACITOR.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (PORTRIGHT-R
       (LibraryName "C:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     ("CAP NP"
@@ -27,10 +34,6 @@
       (DeviceIndex "0"))
     (CAP/SM
       (FullPartName "CAP/SM.Normal")
-      (LibraryName "C:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (CAPACITOR
-      (FullPartName "CAPACITOR.Normal")
       (LibraryName "C:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
       (DeviceIndex "0"))
     (VCC_BAR
@@ -45,9 +48,6 @@
          "C:\UPAGRAHA\SCHEMATICLIBRARIES\ULTRALIBRARIANDOWNLOADS\UL_DSC1121CE5-050-0000\ORCADCAPTUREEDF\2021-10-22_17-13-29.OLB")
       (DeviceIndex "0"))
     (PORTRIGHT-L
-      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (GND
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     (ADP5052
@@ -73,18 +73,20 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\obc_ttc_rf.dsn"))
+      (Path "Design Resources" ".\obc_ttc_rf.dsn")
+      (Path "Design Resources" ".\obc_ttc_rf.dsn" "Top_block")
+      (Path "Design Resources" ".\obc_ttc_rf.dsn" "XC7Z020"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 0 250 0 690"))
+        (Placement "44 2 3 -1 -1 -8 -31 0 250 0 589"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 52 1208 52 313")
-        (Scroll "0 200")
+        (Scroll "0 221")
         (Zoom "100")
         (Occurrence "/Board/FPGA_power_management"))
       (Path "C:\USERS\USER\DESKTOP\SCHEMATICS\OBC_TTC_RF.DSN")
@@ -94,7 +96,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 78 1234 78 339")
-        (Scroll "-69 67")
+        (Scroll "-69 72")
         (Zoom "100")
         (Occurrence "/Board/FPGA_block"))
       (Path "C:\USERS\USER\DESKTOP\SCHEMATICS\OBC_TTC_RF.DSN")
@@ -106,6 +108,11 @@
         (Placement "44 0 1 -1 -1 -8 -31 78 1208 78 437")
         (Scroll "0 50")
         (Zoom "114"))
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 26 1182 26 287")
+        (Scroll "-69 0")
+        (Zoom "100")
+        (Occurrence "/Board/clock_block"))
       (Path "C:\USERS\USER\DESKTOP\SCHEMATICS\OBC_TTC_RF.DSN")
       (Schematic "clock")
       (Page "Clock"))
@@ -113,12 +120,92 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 130 1260 130 489")
-        (Scroll "0 851")
+        (Scroll "0 363")
         (Zoom "100")
         (Occurrence "/Board"))
       (Path "C:\USERS\USER\DESKTOP\SCHEMATICS\OBC_TTC_RF.DSN")
       (Schematic "Components")
-      (Page "Components_blocks"))) >>>>>>> powerpins
+      (Page "Components_blocks"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 1156 0 261")
+        (Scroll "-69 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "C:\USERS\USER\DESKTOP\SCHEMATICS\OBC_TTC_RF.DSN")
+      (Schematic "Top_block")
+      (Page "Top_block"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 26 1156 26 386")
+        (Scroll "-56 0")
+        (Zoom "100")
+        (Occurrence "/Board/FPGA_block"))
+      (Path "C:\USERS\USER\DESKTOP\SCHEMATICS\OBC_TTC_RF.DSN")
+      (Schematic "XC7Z020")
+      (Page "CLG484E_B"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 52 1182 52 412")
+        (Scroll "-56 0")
+        (Zoom "100")
+        (Occurrence "/Board/FPGA_block"))
+      (Path "C:\USERS\USER\DESKTOP\SCHEMATICS\OBC_TTC_RF.DSN")
+      (Schematic "XC7Z020")
+      (Page "CLG484E_C"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 78 1208 78 438")
+        (Scroll "-56 0")
+        (Zoom "100")
+        (Occurrence "/Board/FPGA_block"))
+      (Path "C:\USERS\USER\DESKTOP\SCHEMATICS\OBC_TTC_RF.DSN")
+      (Schematic "XC7Z020")
+      (Page "CLG484E_D"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 104 1234 104 464")
+        (Scroll "-56 0")
+        (Zoom "100")
+        (Occurrence "/Board/FPGA_block"))
+      (Path "C:\USERS\USER\DESKTOP\SCHEMATICS\OBC_TTC_RF.DSN")
+      (Schematic "XC7Z020")
+      (Page "CLG484E_E"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 130 1260 130 490")
+        (Scroll "-56 0")
+        (Zoom "100")
+        (Occurrence "/Board/FPGA_block"))
+      (Path "C:\USERS\USER\DESKTOP\SCHEMATICS\OBC_TTC_RF.DSN")
+      (Schematic "XC7Z020")
+      (Page "CLG484E_F"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 156 1286 156 516")
+        (Scroll "-56 0")
+        (Zoom "100")
+        (Occurrence "/Board/FPGA_block"))
+      (Path "C:\USERS\USER\DESKTOP\SCHEMATICS\OBC_TTC_RF.DSN")
+      (Schematic "XC7Z020")
+      (Page "CLG484E_G"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 1130 0 360")
+        (Scroll "-56 226")
+        (Zoom "100")
+        (Occurrence "/Board/FPGA_block"))
+      (Path "C:\USERS\USER\DESKTOP\SCHEMATICS\OBC_TTC_RF.DSN")
+      (Schematic "XC7Z020")
+      (Page "Bypass_capacitors"))) >>>>>>> powerpins
   (HierarchyView)
   (Doc
     (Type "COrCapturePMDoc")
