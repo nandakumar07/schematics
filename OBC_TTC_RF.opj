@@ -15,6 +15,18 @@
   (Folder "Outputs")
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (INDUCTOR
+      (FullPartName "INDUCTOR.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (CAPACITOR
+      (FullPartName "CAPACITOR.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (RESISTOR
+      (FullPartName "RESISTOR.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
     (FDS9926A
       (FullPartName "FDS9926A.Normal")
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\FDS9926A.OLB")
@@ -23,16 +35,8 @@
       (FullPartName "MOSFET_EN_GDSD.Normal")
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
       (DeviceIndex "0"))
-    (RESISTOR
-      (FullPartName "RESISTOR.Normal")
-      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
     ("CAPACITOR NON-POL"
       (FullPartName "CAPACITOR NON-POL.Normal")
-      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (CAPACITOR
-      (FullPartName "CAPACITOR.Normal")
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
       (DeviceIndex "0"))
     (GND
@@ -95,26 +99,6 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 78 1124 78 413")
-        (Scroll "0 190")
-        (Zoom "100")
-        (Occurrence "/Board/FPGA_power_management"))
-      (Path "C:\USERS\SURYA\DESKTOP\SCHEMATICS\OBC_TTC_RF.DSN")
-      (Schematic "Power_Management")
-      (Page "ADP5052"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 130 1176 130 465")
-        (Scroll "-14 0")
-        (Zoom "100")
-        (Occurrence "/Board/FPGA_block"))
-      (Path "C:\USERS\SURYA\DESKTOP\SCHEMATICS\OBC_TTC_RF.DSN")
-      (Schematic "XC7Z020")
-      (Page "CLG484E_G"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
         (Placement "44 0 1 -1 -1 -8 -31 156 1202 156 491")
         (Scroll "-14 0")
         (Zoom "100")
@@ -126,7 +110,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -31 156 1202 156 491")
-        (Scroll "-100 51")
+        (Scroll "-100 141")
         (Zoom "100")
         (Occurrence "/Board/FPGA_power_management"))
       (Path "C:\USERS\SURYA\DESKTOP\SCHEMATICS\OBC_TTC_RF.DSN")
