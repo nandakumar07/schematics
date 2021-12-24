@@ -84,23 +84,13 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 0 250 0 690"))
+        (Placement "44 0 1 -1 -1 -8 -31 0 250 0 690"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 52 1208 52 313")
-        (Scroll "0 350")
-        (Zoom "100")
-        (Occurrence "/Board/FPGA_power_management"))
-      (Path "C:\USERS\USER\DESKTOP\SCHEMATICS\OBC_TTC_RF.DSN")
-      (Schematic "Power_Management")
-      (Page "ADP5052"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 78 1234 78 339")
-        (Scroll "-69 0")
+        (Placement "44 2 3 -1 -1 -8 -31 78 1234 78 339")
+        (Scroll "-142 221")
         (Zoom "100")
         (Occurrence "/Board/FPGA_power_management"))
       (Path "C:\USERS\USER\DESKTOP\SCHEMATICS\OBC_TTC_RF.DSN")
