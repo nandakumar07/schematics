@@ -15,8 +15,34 @@
   (Folder "Outputs")
   (Folder "Referenced Projects")
   (PartMRUSelector
+<<<<<<< HEAD
     (PORTLEFT-R
       (LibraryName "C:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+=======
+    (INDUCTOR
+      (FullPartName "INDUCTOR.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (CAPACITOR
+      (FullPartName "CAPACITOR.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (RESISTOR
+      (FullPartName "RESISTOR.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (FDS9926A
+      (FullPartName "FDS9926A.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\FDS9926A.OLB")
+      (DeviceIndex "0"))
+    (MOSFET_EN_GDSD
+      (FullPartName "MOSFET_EN_GDSD.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
+      (DeviceIndex "0"))
+    ("CAPACITOR NON-POL"
+      (FullPartName "CAPACITOR NON-POL.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+>>>>>>> powerconnections
       (DeviceIndex "0"))
     (GND
       (LibraryName "C:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
@@ -50,6 +76,14 @@
     (PORTRIGHT-L
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
+    (ADP5052ACPZ-R7
+      (FullPartName "ADP5052ACPZ-R7.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\ADP5052ACPZ-R7.OLB")
+      (DeviceIndex "0"))
+    (PORTRIGHT-L
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
     (ADP5052
       (FullPartName "ADP5052.Normal")
       (LibraryName
@@ -76,24 +110,38 @@
       (Path "Design Resources" ".\obc_ttc_rf.dsn")
       (Path "Design Resources" ".\obc_ttc_rf.dsn" "Top_block")
       (Path "Design Resources" ".\obc_ttc_rf.dsn" "Power_Management")
+<<<<<<< HEAD
       (Path "Design Resources" ".\obc_ttc_rf.dsn" "XC7Z020")
       (Select "Design Resources" ".\obc_ttc_rf.dsn" "Power_Management"
          "ADP5052"))
+=======
+      (Path "Design Resources" ".\obc_ttc_rf.dsn" "XC7Z020"))
+>>>>>>> powerconnections
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
+<<<<<<< HEAD
         (Placement "44 0 1 -1 -1 -8 -31 0 250 0 589"))
+=======
+        (Placement "44 0 1 -1 -1 -8 -31 0 250 0 690"))
+>>>>>>> powerconnections
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
+<<<<<<< HEAD
         (Placement "44 2 3 -1 -1 -8 -31 52 1208 52 313")
         (Scroll "0 221")
+=======
+        (Placement "44 2 3 -1 -1 -8 -31 78 1234 78 339")
+        (Scroll "-142 221")
+>>>>>>> powerconnections
         (Zoom "100")
         (Occurrence "/Board/FPGA_power_management"))
       (Path "C:\USERS\USER\DESKTOP\SCHEMATICS\OBC_TTC_RF.DSN")
       (Schematic "Power_Management")
+<<<<<<< HEAD
       (Page "ADP5052"))
     (Doc
       (Type "COrSchematicDoc")
@@ -209,6 +257,9 @@
       (Path "C:\USERS\USER\DESKTOP\SCHEMATICS\OBC_TTC_RF.DSN")
       (Schematic "XC7Z020")
       (Page "Bypass_capacitors"))) >>>>>>> powerpins
+=======
+      (Page "ADP5052ACPZ-R7"))) >>>>>>> powerpins
+>>>>>>> powerconnections
   (HierarchyView)
   (Doc
     (Type "COrCapturePMDoc")
