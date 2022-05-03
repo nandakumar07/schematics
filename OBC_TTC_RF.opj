@@ -76,6 +76,9 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" ".\obc_ttc_rf.dsn")
+      (Path "Design Resources" ".\obc_ttc_rf.dsn" "Top_block")
+      (Path "Design Resources" ".\obc_ttc_rf.dsn" "ADC")
+      (Path "Design Resources" ".\obc_ttc_rf.dsn" "Analog_MUX")
       (Path "Design Resources" ".\obc_ttc_rf.dsn" "clock")
       (Path "Design Resources" ".\obc_ttc_rf.dsn" "Components")
       (Path "Design Resources" ".\obc_ttc_rf.dsn" "IMU")
@@ -85,88 +88,18 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 0 250 0 589"))
+        (Placement "44 0 1 -1 -1 -8 -31 0 250 0 589"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 52 951 52 313")
-        (Scroll "0 21")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path "C:\USERS\USER\DESKTOP\SCHEMATICS\OBC_TTC_RF.DSN")
-      (Schematic "Top_block")
-      (Page "Top_block"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 78 977 78 339")
-        (Scroll "167 651")
-        (Zoom "96")
-        (Occurrence "/Board"))
-      (Path "C:\USERS\USER\DESKTOP\SCHEMATICS\OBC_TTC_RF.DSN")
-      (Schematic "Components")
-      (Page "Components_blocks"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 26 925 26 287")
-        (Scroll "0 70")
-        (Zoom "100")
-        (Occurrence "/Board/FPGA_block"))
-      (Path "C:\USERS\USER\DESKTOP\SCHEMATICS\OBC_TTC_RF.DSN")
-      (Schematic "XC7Z020")
-      (Page "CLG484E_A"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 52 951 52 313")
-        (Scroll "0 0")
-        (Zoom "100")
-        (Occurrence "/Board/clock_block"))
-      (Path "C:\USERS\USER\DESKTOP\SCHEMATICS\OBC_TTC_RF.DSN")
-      (Schematic "clock")
-      (Page "Clock"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 104 1234 104 464")
-        (Scroll "-56 0")
-        (Zoom "100")
-        (Occurrence "/Board/FPGA_block"))
-      (Path "C:\USERS\USER\DESKTOP\SCHEMATICS\OBC_TTC_RF.DSN")
-      (Schematic "XC7Z020")
-      (Page "CLG484E_B"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 156 1286 156 516")
-        (Scroll "-56 0")
-        (Zoom "100")
-        (Occurrence "/Board/FPGA_block"))
-      (Path "C:\USERS\USER\DESKTOP\SCHEMATICS\OBC_TTC_RF.DSN")
-      (Schematic "XC7Z020")
-      (Page "CLG484E_E"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 26 900 26 349")
-        (Scroll "0 17")
+        (Placement "44 0 1 -1 -1 -8 -31 26 1326 26 384")
+        (Scroll "-141 0")
         (Zoom "100")
         (Occurrence "/Board/AnalogMUX_block"))
-      (Path "C:\USERS\USER\DESKTOP\SCHEMATICS\OBC_TTC_RF.DSN")
+      (Path "C:\USERS\NANDA\DESKTOP\SCHEMATICS\SCHEMATICS\OBC_TTC_RF.DSN")
       (Schematic "Analog_MUX")
-      (Page "MUX_ADG731"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 52 926 52 375")
-        (Scroll "0 0")
-        (Zoom "100")
-        (Occurrence "/Board/ADC_Block"))
-      (Path "C:\USERS\USER\DESKTOP\SCHEMATICS\OBC_TTC_RF.DSN")
-      (Schematic "ADC")
-      (Page "ADC7492"))) >>>>>>> powerpins
+      (Page "MUX_ADG731"))) >>>>>>> powerpins
   (HierarchyView)
   (Doc
     (Type "COrCapturePMDoc")
