@@ -75,22 +75,66 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\obc_ttc_rf.dsn")
-      (Path "Design Resources" ".\obc_ttc_rf.dsn" "Top_block")
-      (Path "Design Resources" ".\obc_ttc_rf.dsn" "ADC")
-      (Path "Design Resources" ".\obc_ttc_rf.dsn" "Analog_MUX")
-      (Path "Design Resources" ".\obc_ttc_rf.dsn" "clock")
-      (Path "Design Resources" ".\obc_ttc_rf.dsn" "Components")
-      (Path "Design Resources" ".\obc_ttc_rf.dsn" "IMU")
-      (Path "Design Resources" ".\obc_ttc_rf.dsn" "Power_Management")
-      (Path "Design Resources" ".\obc_ttc_rf.dsn" "XC7Z020")
-      (Select "Design Resources" ".\obc_ttc_rf.dsn" "Top_block" "Top_block"))
+      (Path "Design Resources"
+         "c:\users\nanda\desktop\schematics\schematics\obc_ttc_rf.dsn")
+      (Path "Design Resources" "Library")
+      (Select "Design Resources"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 0 250 0 589"))
-      (Tab 0))) >>>>>>> powerpins
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 712"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 52 1352 52 410")
+        (Scroll "-99 0")
+        (Zoom "100")
+        (Occurrence "/Board/FPGA_power_management"))
+      (Path "C:\USERS\NANDA\DESKTOP\SCHEMATICS\SCHEMATICS\OBC_TTC_RF.DSN")
+      (Schematic "Power_Management")
+      (Page "ADP5052ACPZ-R7"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 78 1378 78 436")
+        (Scroll "-141 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "C:\USERS\NANDA\DESKTOP\SCHEMATICS\SCHEMATICS\OBC_TTC_RF.DSN")
+      (Schematic "Top_block")
+      (Page "Top_block"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 104 1404 104 462")
+        (Scroll "0 286")
+        (Zoom "100")
+        (Occurrence "/Board"))
+      (Path "C:\USERS\NANDA\DESKTOP\SCHEMATICS\SCHEMATICS\OBC_TTC_RF.DSN")
+      (Schematic "Components")
+      (Page "Components_blocks"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 130 1430 130 488")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/Board/ADC_Block"))
+      (Path "C:\USERS\NANDA\DESKTOP\SCHEMATICS\SCHEMATICS\OBC_TTC_RF.DSN")
+      (Schematic "ADC")
+      (Page "ADC7492"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 156 1456 156 514")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/Board/AnalogMUX_block"))
+      (Path "C:\USERS\NANDA\DESKTOP\SCHEMATICS\SCHEMATICS\OBC_TTC_RF.DSN")
+      (Schematic "Analog_MUX")
+      (Page "MUX_ADG731"))) >>>>>>> powerpins
   (HierarchyView)
   (Doc
     (Type "COrCapturePMDoc")
